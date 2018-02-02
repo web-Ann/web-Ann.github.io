@@ -12,6 +12,7 @@ padding-top: 59px;
 background-color: #3a7dfd;
 color: #fff;
 padding-bottom: 22px;
+
 }
 
 .header-pretitle {
@@ -29,6 +30,7 @@ padding-bottom: 22px;
 .header-button{
 display: inline-block;
 text-decoration: none;	
+border: none;
 box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
 border-radius: 50px;
 background-color: #ffffff;
@@ -37,11 +39,21 @@ font-size: 18px;
 font-weight: 700;
 padding:17px 55px;
 margin-top: 33px;
+-webkit-transition: 0.2em;
+-o-transition: 0.2em;
+transition: 0.2em;
+
+}
+.header-button:hover {
+	box-shadow: none
+}
+
 }
 header small{
-	font-size: 12px;
 	display: block;
 	margin-top: 9px;
+	font-size: 12px;
+
 }
 .header-button-block{
 	max-width: 210px;
@@ -136,7 +148,14 @@ padding-bottom: 110px;
 	font-size: 18px;
 	border-radius: 50px;
 	padding: 12px 40px;
+	-webkit-transition: 0.2em;
+	-o-transition: 0.2em;
+	transition: 0.2em;
 }
+    .footer-button:hover  {
+    	background-color:#fff;
+    	color:  #3a7dfd;
+
 
 @media (max-width: 1200px) {
 	.header-pretitle{
@@ -166,6 +185,8 @@ padding-bottom: 110px;
     .footer-button {
     	font-size:14px;
     	padding: 8px 35px;
+    }
+
     }
 }
 @media (max-width: 768px) {

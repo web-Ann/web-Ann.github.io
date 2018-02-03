@@ -164,7 +164,7 @@ padding-bottom: 110px;
     	color:  #3a7dfd;
 
 
-@media (max-width: 1200px) {
+@media(max-width: 1200px) {
 	.header-pretitle {
 		margin-top: 60px;
 	}

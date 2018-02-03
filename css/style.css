@@ -86,7 +86,7 @@ header small{
 	text-align: center;
 }
 .portfolio-col-1{
-	padding-left: 50px;
+	padding-left: 85px;
 	
 }
 .portfolio-col-2{
@@ -117,12 +117,19 @@ color: #fff;
 padding-top: 60px;
 padding-bottom: 110px;
 }
+.footer-author, .footer-text{
+	text-align: center;
+}
 .footer-author{
 	font-size: 24px;
 	margin-bottom: 7px;
+
+	text-align: center;
 }
 .footer-text{
 	margin-top: 0;
+
+
 }
 .social-block{
 	text-align: center;
@@ -158,7 +165,7 @@ padding-bottom: 110px;
 
 
 @media (max-width: 1200px) {
-	.header-pretitle{
+	.header-pretitle {
 		margin-top: 60px;
 	}
 }
@@ -201,5 +208,10 @@ padding-bottom: 110px;
 	}
 	.footer-author,.footer-text {
     	text-align: center;
-    }   
+    } 
+ 
+    .footer-button{
+    	font-size:10px;
+
+    }  
 }
